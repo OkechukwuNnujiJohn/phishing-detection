@@ -22,7 +22,7 @@ const HomePage = () => {
     setError(null);
     const token = localStorage.getItem('token');
     try {
-      const response = await fetch('http://localhost:5000/api/combined-check', {
+      const response = await fetch(`${process.env.REACT_APP_BACKEND_URL}/api/combined-check`, {
         method: 'POST',
         headers: { 
           'Content-Type': 'application/json',
