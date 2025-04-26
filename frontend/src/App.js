@@ -1,16 +1,3 @@
-// import React from 'react';
-// import HomePage from './pages/HomePage.js';
-
-// const App = () => {
-//   return (
-//     <div>
-//       <h1>Phishing Detection App</h1>
-//       <HomePage />
-//     </div>
-//   );
-// };
-
-// export default App;
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Login from './pages/Login';
